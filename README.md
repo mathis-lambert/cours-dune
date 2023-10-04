@@ -69,7 +69,6 @@ let height = 1.8;
 
 -   Soyez conscient des implications en matière de sécurité
     > Écrivez un code sécurisé, protégez-vous des vulnérabilités courantes.
-    > <<<<<<< HEAD
 -   Nommage des variables
     > Utilisez des noms de variables qui décrivent leur utilité ou leur fonction. il faut pouvoir comprendre une variable uniquement grâçe à son nom !
 -   Syntaxe et indentation
