@@ -36,6 +36,7 @@ Utilisez des classes pour regrouper des fonctionnalités liées.
 ### Performance et optimisation
 - Utiliser le même outil de mise en forme
 > Prettier, code formatter, etc.
+### Sécurité
 - Soyez conscient des implications en matière de sécurité
 > Écrivez un code sécurisé, protégez-vous des vulnérabilités courantes.
 - Ne pas hardcoder les configurations
