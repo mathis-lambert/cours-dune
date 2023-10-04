@@ -18,8 +18,7 @@
 >propriétés (clés dans les objet js ou JSON)	**snake_case**	exemple : ma_propriete
 
 >Nom des composants (nom du fichier .jsx)	**PascalCase**	par exemple le composant boutton envoyer : SendButton.jsx.     PAS: le nom de la fonction interne au composant doit aussi etre en PC
-- Éviter la duplication de code
-> Ne pas répéter le même code. Si vous avez besoin d'une logique similaire à plusieurs endroits, créez une fonction réutilisable.
+
 ### Structure du code :
 - Lisibilité du code
 > Écrivez votre code de manière à ce qu'il soit lisible par d'autres.
@@ -27,7 +26,8 @@
 > Commentez le pourquoi, pas le comment.
 - Diviser le code en fonctions et classes 
 >Évitez les fonctions monolithiques. Divisez votre code en fonctions ou méthodes plus petites, chacune effectuant une tâche spécifique. 
-
+- Éviter la duplication de code
+> Ne pas répéter le même code. Si vous avez besoin d'une logique similaire à plusieurs endroits, créez une fonction réutilisable.
 Utilisez des classes pour regrouper des fonctionnalités liées.
 ### Gestion des erreurs et des exceptions :
 
