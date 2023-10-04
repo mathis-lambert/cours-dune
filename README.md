@@ -29,3 +29,7 @@
 > Utilisez la gestion des exceptions pour gérer les erreurs plutôt que de renvoyer des codes d'erreur. Cela rend le code plus robuste et plus facile à maintenir.
 - Soyez conscient des implications en matière de sécurité 
 > Écrivez un code sécurisé, protégez-vous des vulnérabilités courantes.
+- Utiliser le même outil de mise en forme
+> Prettier, code formatter, etc.
+- Soyez conscient des implications en matière de sécurité
+> Écrivez un code sécurisé, protégez-vous des vulnérabilités courantes.
