@@ -27,3 +27,5 @@
 > Ne pas répéter le même code. Si vous avez besoin d'une logique similaire à plusieurs endroits, créez une fonction réutilisable.
 - Gérer les erreurs
 > Utilisez la gestion des exceptions pour gérer les erreurs plutôt que de renvoyer des codes d'erreur. Cela rend le code plus robuste et plus facile à maintenir.
+- Utiliser le même outil de mise en forme
+> Prettier, code formatter, etc.
