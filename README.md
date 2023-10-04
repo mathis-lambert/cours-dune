@@ -26,7 +26,6 @@
 
 >constantes (const)	**camelCase** 	pour les conteneur. Exception pour les variables constante. par exemple un délai d'attente en secondes qu'on notera tout en majuscule : const TIMER = 2
 
-
 >Nom des composants (nom du fichier .jsx)	**PascalCase**	par exemple le composant boutton envoyer : SendButton.jsx.     PAS: le nom de la fonction interne au composant doit aussi etre en PC
 - Éviter la duplication de code
 > Ne pas répéter le même code. Si vous avez besoin d'une logique similaire à plusieurs endroits, créez une fonction réutilisable.
