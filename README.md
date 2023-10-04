@@ -92,3 +92,51 @@ let height = 1.8;
 ### JS / JSON
 
 > propriétés (clés dans les objet js ou JSON) **snake_case** exemple : ma_propriete
+
+### Python
+```python
+class MyClass:
+    def __init__(self, name):
+        self.name = name
+
+    def say_hello(self):
+        print(f"Hello, {self.name}!")
+
+my_variable = 1
+MYCONSTANT = 2
+```
+
+### C#
+    
+```csharp
+public class MyClass
+{
+    public MyClass(string name)
+    {
+        Name = name;
+    }
+
+    public string Name { get; set; }
+
+    public void SayHello()
+    {
+        Console.WriteLine($"Hello, {Name}!");
+    }
+}
+```
+
+### PHP
+```php
+class MyClass
+{
+    public function __construct($name)
+    {
+        $this->name = $name;
+    }
+
+    public function sayHello()
+    {
+        echo "Hello, {$this->name}!";
+    }
+}
+``
