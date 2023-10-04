@@ -26,7 +26,7 @@
 -   Syntaxe et indentation
     > variables (let) **camelCase** premier lettre en minuscule et tous les autres mots ont leur premiere lettre en maj parExempleCommeCa
 
-> constantes (const) **camelCase / CAPS** exeption pour les VRAIES CONSTANTES par exemple un délai d'attente en secondes qu'on notera tout en majuscule : const TIMER = 2
+> constantes (const) **camelCase / CAPS** exception pour les VRAIES CONSTANTES par exemple un délai d'attente en secondes qu'on notera tout en majuscule : const TIMER = 2
 
 > classes, id (pour le HTML) **kebab-case** exemple : ma-super-div sans majuscule
 
@@ -73,7 +73,7 @@ let height = 1.8;
 -   Nommage des variables
     > Utilisez des noms de variables qui décrivent leur utilité ou leur fonction. il faut pouvoir comprendre une variable uniquement grâçe à son nom !
 -   Syntaxe et indentation
-    > variables (let) **camelCase** premier lettre en minuscule et tous les autres mots ont leur premiere lettre en maj parExempleCommeCa
+    > variables (let) **camelCase** premier lettre en minuscule et tous les autres mots ont leur première lettre en maj parExempleCommeCa
 
 > constantes (const) **camelCase** pour les conteneur. Exception pour les variables constante. par exemple un délai d'attente en secondes qu'on notera tout en majuscule : const TIMER = 2
 
