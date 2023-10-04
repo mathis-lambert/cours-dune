@@ -1,6 +1,6 @@
 [//]: <> (https://stackedit.io/app#)
 
-# Versionning GIT
+# Versioning GIT
 
 ## Bonnes pratiques en programmation.
 
@@ -11,7 +11,7 @@
 -   Commentaires pertinents
     > Commentez le pourquoi, pas le comment. 1/3 de commentaire 2/3 de code
 -   Nommer judicieusement
-    > Utilisez des noms de variables, de fonctions et de classes qui décrivent leur utilité ou leur fonction. il faut pouvoir comprendre une fonction ou une variable uniquement grâçe à son nom !
+    > Utilisez des noms de variables, de fonctions et de classes qui décrivent leur utilité ou leur fonction. il faut pouvoir comprendre une fonction ou une variable uniquement grâce à son nom !
 -   Diviser le code en fonctions et classes
     > Évitez les fonctions monolithiques. Divisez votre code en fonctions ou méthodes plus petites, chacune effectuant une tâche spécifique. Utilisez des classes pour regrouper des fonctionnalités liées.
 -   Soyez conscient des implications en matière de sécurité
@@ -24,7 +24,7 @@
     > Utilisez des noms de variables, de fonctions et de classes qui décrivent leur utilité ou leur fonction. il faut pouvoir comprendre une fonction ou une variable uniquement grâçe à son nom !
 
 -   Syntaxe et indentation
-    > variables (let) **camelCase** premier lettre en minuscule et tous les autres mots ont leur premiere lettre en maj parExempleCommeCa
+    > variables (let) **camelCase** premier lettre en minuscule et tous les autres mots ont leur première lettre en maj parExempleCommeCa
 
 > constantes (const) **camelCase / CAPS** exception pour les VRAIES CONSTANTES par exemple un délai d'attente en secondes qu'on notera tout en majuscule : const TIMER = 2
 
@@ -32,7 +32,7 @@
 
 > propriétés (clés dans les objet js ou JSON) **snake_case** exemple : ma_propriete
 
-> Nom des composants (nom du fichier .jsx) **PascalCase** par exemple le composant boutton envoyer : SendButton.jsx. PAS: le nom de la fonction interne au composant doit aussi etre en PC
+> Nom des composants (nom du fichier .jsx) **PascalCase** par exemple le composant bouton envoyer : SendButton.jsx. PAS: le nom de la fonction interne au composant doit aussi être en PC
 
 ```js
 class User {}
@@ -71,13 +71,13 @@ let height = 1.8;
     > Écrivez un code sécurisé, protégez-vous des vulnérabilités courantes.
     > <<<<<<< HEAD
 -   Nommage des variables
-    > Utilisez des noms de variables qui décrivent leur utilité ou leur fonction. il faut pouvoir comprendre une variable uniquement grâçe à son nom !
+    > Utilisez des noms de variables qui décrivent leur utilité ou leur fonction. il faut pouvoir comprendre une variable uniquement grâce à son nom !
 -   Syntaxe et indentation
     > variables (let) **camelCase** premier lettre en minuscule et tous les autres mots ont leur première lettre en maj parExempleCommeCa
 
 > constantes (const) **camelCase** pour les conteneur. Exception pour les variables constante. par exemple un délai d'attente en secondes qu'on notera tout en majuscule : const TIMER = 2
 
-> Nom des composants (nom du fichier .jsx) **PascalCase** par exemple le composant boutton envoyer : SendButton.jsx. PAS: le nom de la fonction interne au composant doit aussi etre en PC
+> Nom des composants (nom du fichier .jsx) **PascalCase** par exemple le composant bouton envoyer : SendButton.jsx. PAS: le nom de la fonction interne au composant doit aussi etre en PC
 
 -   Éviter la duplication de code
     > Ne pas répéter le même code. Si vous avez besoin d'une logique similaire à plusieurs endroits, créez une fonction réutilisable.
