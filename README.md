@@ -33,3 +33,5 @@
 > Prettier, code formatter, etc.
 - Soyez conscient des implications en matière de sécurité
 > Écrivez un code sécurisé, protégez-vous des vulnérabilités courantes.
+- Ne pas hardcoder les configurations
+> Utilisez des fichiers de configuration ou des variables d'environnement.
