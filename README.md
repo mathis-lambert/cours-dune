@@ -4,7 +4,6 @@
 
 ## Bonnes pratiques en programmation.
 
-<<<<<<< HEAD
 ### Générales
 - Lisibilité du code
 > Écrivez votre code de manière à ce qu'il soit lisible par d'autres.
@@ -32,6 +31,14 @@
 
 >Nom des composants (nom du fichier .jsx)	**PascalCase**	par exemple le composant boutton envoyer : SendButton.jsx.     PAS: le nom de la fonction interne au composant doit aussi etre en PC
 
+```js
+class User{};
+const USER = "xxx";
+function userConnected(userId) {};
+let userId = 2;
+<div id="super-div" class="super-class"></div>
+```
+
 ### Structure du code :
 - Lisibilité du code
 > Écrivez votre code de manière à ce qu'il soit lisible par d'autres.
@@ -47,7 +54,6 @@ Utilisez des classes pour regrouper des fonctionnalités liées.
 - Gérer les erreurs
 > Utilisez la gestion des exceptions pour gérer les erreurs plutôt que de renvoyer des codes d'erreur. Cela rend le code plus robuste et plus facile à maintenir.
 ### Performance et optimisation
->>>>>>> 584b794d12b1c1b22b958663645a3bb8f1c68b44
 - Utiliser le même outil de mise en forme
 > Prettier, code formatter, etc.
 ### Sécurité
