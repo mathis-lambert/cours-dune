@@ -32,15 +32,6 @@
 
 >Nom des composants (nom du fichier .jsx)	**PascalCase**	par exemple le composant boutton envoyer : SendButton.jsx.     PAS: le nom de la fonction interne au composant doit aussi etre en PC
 
-```
-class User{};
-const USER = "xxx";
-function userConnected(userId) {};
-let userId = 2;
-
-<div id="super-div" class="super-class"></div>
-```
-
 ### Structure du code :
 - Lisibilité du code
 > Écrivez votre code de manière à ce qu'il soit lisible par d'autres.
