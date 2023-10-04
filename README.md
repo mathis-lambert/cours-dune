@@ -13,6 +13,12 @@
 > Utilisez des noms de variables, de fonctions et de classes qui décrivent leur utilité ou leur fonction. il faut pouvoir comprendre une fonction ou une variable uniquement grâçe à son nom !
 - Diviser le code en fonctions et classes 
 >Évitez les fonctions monolithiques. Divisez votre code en fonctions ou méthodes plus petites, chacune effectuant une tâche spécifique. Utilisez des classes pour regrouper des fonctionnalités liées.
+- Soyez conscient des implications en matière de sécurité 
+> Écrivez un code sécurisé, protégez-vous des vulnérabilités courantes.
+- Utiliser le même outil de mise en forme
+> Prettier, code formatter, etc.
+- Soyez conscient des implications en matière de sécurité
+> Écrivez un code sécurisé, protégez-vous des vulnérabilités courantes.
 - Nommage des variables
 > Utilisez des noms de variables qui décrivent leur utilité ou leur fonction. il faut pouvoir comprendre une variable uniquement grâçe à son nom !
 - Syntaxe et indentation
@@ -27,7 +33,6 @@
 - Gérer les erreurs
 > Utilisez la gestion des exceptions pour gérer les erreurs plutôt que de renvoyer des codes d'erreur. Cela rend le code plus robuste et plus facile à maintenir.
 
-
 ### HTML
 
 >classes, id (pour le HTML)    **kebab-case**    exemple : ma-super-div sans majuscule
@@ -35,4 +40,6 @@
 ### JS / JSON
 
 >propriétés (clés dans les objet js ou JSON)    **snake_case**    exemple : ma_propriete
+
+
 
