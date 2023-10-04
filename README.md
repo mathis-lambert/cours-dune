@@ -1,3 +1,4 @@
+[//]: <> (https://stackedit.io/app#)
 # COURS MME DUNE
 ## Versionning GIT
 
