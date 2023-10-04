@@ -85,7 +85,7 @@ let height = 1.8;
 ### Performance et optimisation
 
 -   Utiliser le même outil de mise en forme
-    > Prettier, code formatter, etc.
+    > Prettier
 
 ### Sécurité
 
@@ -94,6 +94,7 @@ let height = 1.8;
 -   Nommage des variables
     > Utilisez des noms de variables qui décrivent leur utilité ou leur fonction. il faut pouvoir comprendre une variable uniquement grâce à son nom !
 -   Syntaxe et indentation
+
     > variables (let) **camelCase** premier lettre en minuscule et tous les autres mots ont leur premiere lettre en maj parExempleCommeCa
     > Nom des composants (nom du fichier .jsx) **PascalCase** par exemple le composant bouton envoyer : SendButton.jsx. PAS: le nom de la fonction interne au composant doit aussi etre en PC
     > constantes (const) **camelCase** pour les conteneur. Exception pour les variables constante. par exemple un délai d'attente en secondes qu'on notera tout en majuscule : const TIMER = 2
