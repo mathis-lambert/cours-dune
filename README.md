@@ -24,23 +24,45 @@
     > Utilisez des noms de variables, de fonctions et de classes qui décrivent leur utilité ou leur fonction. il faut pouvoir comprendre une fonction ou une variable uniquement grâçe à son nom !
 
 -   Syntaxe et indentation
+
+    > propriétés (clés dans les objet js ou JSON) **snake_case** exemple : ma_propriete
+
     > variables (let) **camelCase** premier lettre en minuscule et tous les autres mots ont leur première lettre en maj parExempleCommeCa
 
-> constantes (const) **camelCase / CAPS** exeption pour les VRAIES CONSTANTES par exemple un délai d'attente en secondes qu'on notera tout en majuscule : const TIMER = 2
+    > constantes (const) **camelCase / CAPS** exeption pour les VRAIES CONSTANTES par exemple un délai d'attente en secondes qu'on notera tout en majuscule : const TIMER = 2
 
-> classes, id (pour le HTML) **kebab-case** exemple : ma-super-div sans majuscule
+    > Nom des composants (nom du fichier .jsx) **PascalCase** par exemple le composant boutton envoyer : SendButton.jsx. PAS: le nom de la fonction interne au composant doit aussi etre en PC
 
-> propriétés (clés dans les objet js ou JSON) **snake_case** exemple : ma_propriete
+-   Js:
+    > variables & Fonction (let & function) **camelCase** premier lettre en minuscule et tous les autres mots ont leur premiere lettre en maj parExempleCommeCa
+    
+    > constantes (const) **camelCase / CAPS** exeption pour les VRAIES CONSTANTES par exemple un délai d'attente en secondes qu'on notera tout en majuscule : const TIMER = 2
+    
+    > Nom des composants (nom du fichier .jsx) **PascalCase** par exemple le composant bouton envoyer : SendButton.jsx. PAS: le nom de la fonction interne au composant doit aussi être en PC
 
-> Nom des composants (nom du fichier .jsx) **PascalCase** par exemple le composant bouton envoyer : SendButton.jsx. PAS: le nom de la fonction interne au composant doit aussi être en PC
-
+    > class (class) **camelCase** première lettre en majuscule et tout les autres mots on leur premiere lettre en majuscule
 ```js
 class User {}
 const USER = "xxx";
 function userConnected(userId) {}
 const USER_ID = 2;
 let height = 1.8;
+```
+
+-   HTMl:
+    > classes, id (pour le HTML) **kebab-case** exemple : ma-super-div sans majuscule
+
+```html
 <div id="super-div" class="super-class"></div>;
+```
+
+-   CSS: 
+    > classes, id (pour le CSS) **kebab-case** la même que le html
+
+```css
+.super-class {
+    display : none;
+}
 ```
 
 ### Structure du code :
@@ -80,6 +102,7 @@ let height = 1.8;
     > Utilisez la gestion des exceptions pour gérer les erreurs plutôt que de renvoyer des codes d'erreur. Cela rend le code plus robuste et plus facile à maintenir.
 -   Ne pas hardcoder les configurations
     > Utilisez des fichiers de configuration ou des variables d'environnement
+
 
 ### HTML
 
