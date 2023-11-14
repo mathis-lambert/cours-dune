@@ -51,3 +51,59 @@
 ### Corrections de Bugs
 - Correction d'un bug lié à la gestion de yolo avec l'import de la librairie Ultralytics.
 - Correction de bug lié au model utilisé par Yolo avec l'import du model yolov8n-pose.pt
+
+## [v2.1.0] - Traitement à partir de YOLO 
+
+### Ajouts
+- Ajout des 17 points du corps dans une liste pour les traiter.
+- Ajout d'un calcul de distance entre deux points.
+- Ajout d'un calcul d'angle entre 3 points.
+- Ajout du calcul de la position de la personne (gauche, droite ou centre).
+- Ajout du calcul de la position de la tête (gauche, droite ou centre).
+
+### Modifications
+- Mise à jour de la boucle permettant la prédiction de la pose.
+
+### Corrections de Bugs
+- Correction d'un bug lié à la gestion des keypoints (obtention des points)
+
+## [v2.2.0] - Rétrocompatibilité
+
+### Ajouts
+- Ajout d'un script pour l'UDP
+- Couplage avec Unity via un tunnel UDP.
+- Ajout d'un server python pour connection avec unity
+- Ajout d'un script en C# pour effectué la connection avec le serveur python
+- Ajout d'un script "moveBall" dans unity
+
+### Modifications
+- Aucune mise à jour effectué
+
+### Corrections de Bugs
+- Aucune bug corrigé
+
+## [v2.3.0] - Mise à jour du script
+
+### Ajouts
+- aucun ajout effectué
+
+### Modifications
+- Fusion du script server.py et yoloV2.py
+- Mise à jour du contenue en mettant en place le tunnel UDP directement avec yolo
+- Mise à jour de la gestion du server et du client
+
+### Corrections de Bugs
+- Aucune bug corrigé
+
+## [v3.0.0] - Refactoring
+
+### Ajouts
+- Ajout de class
+- Ajout de definition
+- Ajout de method static
+
+### Modifications
+- Mise à jour du code en faisant de l'orienté objet.
+
+### Corrections de Bugs
+- Bug lié au refactoring corrigé
