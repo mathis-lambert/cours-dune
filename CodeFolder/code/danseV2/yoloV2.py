@@ -1,4 +1,4 @@
-#yolo pose predict model=yolov8n-pose.pt source=0 show=true
+
 #--------------------V4--------------------#
 import cv2
 import numpy as np
