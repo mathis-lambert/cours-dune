@@ -1,4 +1,4 @@
-ï»¿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 using System;
 using System.Text;
@@ -9,7 +9,8 @@ using System.Threading;
 public class UdpSocket : MonoBehaviour
 {
     [HideInInspector] public bool isTxStarted = false;
-
+    public float wristDistance = 0.0f;
+    
     [SerializeField] string IP = "127.0.0.1"; // local host
     [SerializeField] int rxPort = 8000; // port to receive data from Python on
     [SerializeField] int txPort = 8001; // port to send data to Python on
@@ -84,11 +85,23 @@ public class UdpSocket : MonoBehaviour
         }
     }
 
-    private void ProcessInput(string input)
+private void ProcessInput(string input)
     {
-        // PROCESS INPUT RECEIVED STRING HERE
+        // Analyser l'entrée reçue pour extraire la distance du poignet
+        if (input.Contains("distance poignet :"))
+        {
+            string[] parts = input.Split(':');
+            if (parts.Length > 1)
+            {
+                float distance;
+                if (float.TryParse(parts[1], out distance))
+                {
+                    wristDistance = distance;
+                }
+            }
+        }
 
-        if (!isTxStarted) // First data arrived so tx started
+        if (!isTxStarted)
         {
             isTxStarted = true;
         }
