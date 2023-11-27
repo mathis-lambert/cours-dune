@@ -103,6 +103,8 @@ let height = 1.8;
     > Utilisez la gestion des exceptions pour gérer les erreurs plutôt que de renvoyer des codes d'erreur. Cela rend le code plus robuste et plus facile à maintenir.
 -   Ne pas hardcoder les configurations
     > Utilisez des fichiers de configuration ou des variables d'environnement
+-   Créer un fichier .gitignore pour ignorer les fichiers sensibles
+    > Ne pas push les fichiers sensibles ou les libraires à installer sur le repo (.config, .env, .pem, node_modules, package.json etc...)
 
 
 ### HTML
