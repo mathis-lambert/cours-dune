@@ -15,9 +15,13 @@
 -   Diviser le code en fonctions et classes
     > Évitez les fonctions monolithiques. Divisez votre code en fonctions ou méthodes plus petites, chacune effectuant une tâche spécifique. Utilisez des classes pour regrouper des fonctionnalités liées.
 -   Soyez conscient des implications en matière de sécurité
+
     > **Écrivez un code sécurisé, protégez-vous des vulnérabilités courantes.**
+
     > Ne pas **Hardcoder** les configurations
+
     > Cloisonner les serveurs de travail (prod/preprod) attention aux échanges de données
+
 -   Maintenabilité
 -   Testing
 -   Licence
