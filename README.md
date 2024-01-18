@@ -80,16 +80,14 @@ let height = 1.8;
 -   Éviter la duplication de code
     > Ne pas répéter le même code. Si vous avez besoin d'une logique similaire à plusieurs endroits, créez une fonction réutilisable.
     > Utilisez des classes pour regrouper des fonctionnalités liées.
+-   Utiliser le même outil de mise en forme
+    > Exemple : Prettier, PEP8 ...
 
 ### Gestion des erreurs et des exceptions :
 
 -   Gérer les erreurs
     > Utilisez la gestion des exceptions pour gérer les erreurs plutôt que de renvoyer des codes d'erreur. Cela rend le code plus robuste et plus facile à maintenir.
 
-### Performance et optimisation
-
--   Utiliser le même outil de mise en forme
-    > Prettier
 
 ### Sécurité
 
