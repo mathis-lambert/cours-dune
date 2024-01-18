@@ -44,7 +44,7 @@
     
     > Nom des composants (nom du fichier .jsx) **PascalCase** par exemple le composant bouton envoyer : SendButton.jsx. PAS: le nom de la fonction interne au composant doit aussi être en PC
 
-    > class (class) **camelCase** première lettre en majuscule et tout les autres mots on leur premiere lettre en majuscule
+    > class (class) **PascalCase** première lettre en majuscule et tout les autres mots on leur premiere lettre en majuscule
 ```js
 class User {}
 const USER = "xxx";
