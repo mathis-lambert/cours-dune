@@ -34,7 +34,8 @@
 
     > constantes (const) **camelCase / CAPS** exeption pour les VRAIES CONSTANTES par exemple un délai d'attente en secondes qu'on notera tout en majuscule : const TIMER = 2
 
-    > Nom des composants (nom du fichier .jsx) **PascalCase** par exemple le composant boutton envoyer : SendButton.jsx. PAS: le nom de la fonction interne au composant doit aussi etre en PC
+    > Nom des composants (nom du fichier .jsx) **PascalCase** par exemple le composant boutton envoyer : SendButton.jsx.
+    > Le nom de la fonction interne au composant doit aussi etre en PC
 
 -   Js:
     > variables & Fonction (let & function) **camelCase** premier lettre en minuscule et tous les autres mots ont leur premiere lettre en maj parExempleCommeCa
